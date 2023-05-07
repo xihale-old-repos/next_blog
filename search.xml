@@ -3,19 +3,19 @@
   <entry>
     <title>git-usage</title>
     <url>/git-usage/</url>
-    <content><![CDATA[<h1 id="introduction">Introduction</h1>
-<p>Using git is an important work for code programming! Let's study how
-to use git!<span id="more"></span></p>
-<h1 id="install">Install</h1>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo pacman -S git</span><br></pre></td></tr></table></figure>
-<p>and there are something recommend to do(before type to shell, please
-change the informations to your profile!): <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;xihale&quot;</span><br><span class="line">git config --global user.email &quot;xihale.top@qq.com&quot;</span><br><span class="line">ssh-keygen -t rsa -C &quot;xihale.top@qq.com&quot; # make ssh keys</span><br></pre></td></tr></table></figure></p>
-<h1 id="usage">Usage</h1>
-<h2 id="init">Init</h2>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git init .</span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>Using git is an important work for code programming!<br>Let’s study how to use git!<span id="more"></span></p>
+<h1 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h1><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo pacman -S git</span><br></pre></td></tr></table></figure>
+
+<p>and there are something recommend to do(before type to shell, please change  the informations to your profile!):</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;xihale&quot;</span><br><span class="line">git config --global user.email &quot;xihale.top@qq.com&quot;</span><br><span class="line">ssh-keygen -t rsa -C &quot;xihale.top@qq.com&quot; # make ssh keys</span><br></pre></td></tr></table></figure>
+
+<h1 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h1><h2 id="Init"><a href="#Init" class="headerlink" title="Init"></a>Init</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git init .</span><br></pre></td></tr></table></figure>
+
 <figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[\sum^{m}_{i=n}x_i\]</span> &gt; To be
-continued.</p>
+<p>$$\sum^{m}_{i&#x3D;n}x_i$$</p>
+<blockquote>
+<p>To be continued.</p>
+</blockquote>
 ]]></content>
       <tags>
         <tag>git</tag>
@@ -24,29 +24,19 @@ continued.</p>
   <entry>
     <title>Hello World</title>
     <url>/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very
-first post. Check <a href="https://hexo.io/docs/">documentation</a> for
-more info. If you get any problems when using Hexo, you can find the
-answer in <a
-href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or
-you can ask me on <a
-href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="quick-start">Quick Start</h2>
-<h3 id="create-a-new-post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a
-href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="run-server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
 <p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="generate-static-files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a
-href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a
-href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
 </search>
